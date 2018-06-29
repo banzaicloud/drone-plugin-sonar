@@ -1,0 +1,29 @@
+{
+	"ImportPath": "github.com/pbalogh-sa/drone-sonar-scanner",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v1.0.5-26-gea8897e",
+			"Rev": "ea8897e79973357ba785ac2533559a6297e83c44"
+		},
+		{
+			"ImportPath": "github.com/urfave/cli",
+			"Comment": "v1.20.0-73-g8e01ec4",
+			"Rev": "8e01ec4cd3e2d84ab2fe90d8210528ffbb06d8ff"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "027cca12c2d63e3d62b670d901e8a2c95854feec"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "6c888cc515d3ed83fc103cf1d84468aad274b0a7"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "6c888cc515d3ed83fc103cf1d84468aad274b0a7"
+		}
+	]
+}
